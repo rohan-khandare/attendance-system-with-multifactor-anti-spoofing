@@ -4,14 +4,6 @@ import numpy as np
 import cv2
 import os
 
-# class FaceEnroller:
-#     def __init__(self, out_file="templates.npz"):
-#         self.out_file = out_file
-#         self.app = FaceAnalysis(name='buffalo_l')
-#         self.app.prepare(ctx_id=0, det_size=(640, 640))
-#         self.embeddings = []
-#         self.names = []
-#         self._load_existing()
 class FaceEnroller:
     def __init__(self, out_file=os.path.join(os.path.dirname(__file__), "..", "templates.npz")):
         self.out_file = os.path.abspath(out_file)
