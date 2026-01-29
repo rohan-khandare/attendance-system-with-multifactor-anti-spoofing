@@ -1,1 +1,41 @@
-_pycache
+# Python virtual environments
+myenv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Databases
+*.db
+*.sqlite3
+
+# Logs
+*.log
+spoof_log.txt
+spoof_log*.txt
+
+# Model / numpy files
+*.npz
+
+# CSV
+*.csv
+
+# Node modules
+ui/node_modules/
+
+# Frontend build
+ui/dist/
+ui/build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Env files
+.env
